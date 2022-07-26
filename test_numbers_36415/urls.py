@@ -36,6 +36,7 @@ urlpatterns = [
     path("api/v1/", include("four.api.v1.urls")),
     path("api/v1/", include("three.api.v1.urls")),
     path("api/v1/", include("two.api.v1.urls")),
+    path("api/v1/", include("testmodel.api.v1.urls")),
 ]
 
 admin.site.site_header = "test numbers"

@@ -72,6 +72,7 @@ INSTALLED_APPS = [
     "four",
     "three",
     "two",
+    "testmodel",
 ]
 LOCAL_APPS = [
     "home",
